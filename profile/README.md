@@ -1,8 +1,10 @@
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
   <img alt="The Margin Wars: payment tactics for winning back margin" src="assets/banner-light.png" width="100%">
 </picture>
+</p>
 
 **Nobody loses margin on the rate. You lose it in the line items nobody owns.**
 

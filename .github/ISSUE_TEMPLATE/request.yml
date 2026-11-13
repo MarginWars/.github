@@ -1,0 +1,21 @@
+name: Request
+description: A change or addition to this repository
+title: 'Request: '
+labels:
+- enhancement
+body:
+- type: markdown
+  attributes:
+    value: 'Public repo: no personal data, secrets or private names. Use first names and `{{profile.*}}` placeholders.'
+- type: textarea
+  id: ask
+  attributes:
+    label: What you need, and why
+  validations:
+    required: true
+- type: input
+  id: by
+  attributes:
+    label: Needed by (PT)
+  validations:
+    required: false
